@@ -1142,6 +1142,10 @@
 "live_activity.title" = "Эфир активности";
 "live_activity.token_unreachable.body" = "Не удалось связаться с Home Assistant для регистрации этого эфира активности, поэтому оно не будет обновляться. Проверьте уровень безопасности подключения к серверу в настройках сопутствующего приложения. Если вы используете внутренний URL-адрес, убедитесь, что для разрешения геопозиции установлено значение «Всегда».";
 "live_activity.token_unreachable.title" = "Live Activity won't update";
+"local_push.state_notification.connected.body" = "Connected to %@";
+"local_push.state_notification.connected.title" = "Local push connected";
+"local_push.state_notification.disconnected.body" = "Lost %1$@: %2$@";
+"local_push.state_notification.disconnected.title" = "Local push disconnected";
 "location_change_notification.app_shortcut.body" = "Геопозиция обновлена командой приложения";
 "location_change_notification.background_fetch.body" = "Обновление геопозиции происходит в фоне";
 "location_change_notification.beacon_region_enter.body" = "Вход в %@ через iBeacon";
@@ -1918,6 +1922,7 @@ Home Assistant — это приложение с открытым исходн�
 "settings.debugging.media_playback.restart_required.message" = "Чтобы изменения вступили в силу, принудительно закройте и снова откройте приложение.";
 "settings.debugging.media_playback.restart_required.title" = "Требуется принудительное закрытие";
 "settings.debugging.media_playback.title" = "Воспроизведение мультимедиа WKWebView";
+"settings.debugging.notify_local_push_state_changes.title" = "Notify when local push connects or disconnects";
 "settings.debugging.receive_debug_notifications.title" = "Receive debug notifications";
 "settings.debugging.reset_app.alert_title" = "Удалить все данные приложения?";
 "settings.debugging.reset_app.client_event" = "Deleted all app data from debug settings";

@@ -1142,6 +1142,10 @@
 "live_activity.title" = "即時動態";
 "live_activity.token_unreachable.body" = "無法連線至 Home Assistant 以註冊此即時活動，因此將無法接收更新。請在配套應用程式設定中檢查伺服器的連線安全性層級，若您使用內部網址L，請確認位置權限已設定為 “永遠允許”。";
 "live_activity.token_unreachable.title" = "即時活動無法更新";
+"local_push.state_notification.connected.body" = "Connected to %@";
+"local_push.state_notification.connected.title" = "Local push connected";
+"local_push.state_notification.disconnected.body" = "Lost %1$@: %2$@";
+"local_push.state_notification.disconnected.title" = "Local push disconnected";
 "location_change_notification.app_shortcut.body" = "已透過 App 捷徑更新座標";
 "location_change_notification.background_fetch.body" = "背景取得目前座標";
 "location_change_notification.beacon_region_enter.body" = "已透過 iBeacon 偵測到 %@ 進入";
@@ -1918,6 +1922,7 @@ Home Assistant 為開源軟體、倡導隱私保護並於您的家中進行本�
 "settings.debugging.media_playback.restart_required.message" = "強制關閉並重新開啟應用程式，以使此變更生效。";
 "settings.debugging.media_playback.restart_required.title" = "需要強制關閉";
 "settings.debugging.media_playback.title" = "WKWebView 媒體播放";
+"settings.debugging.notify_local_push_state_changes.title" = "Notify when local push connects or disconnects";
 "settings.debugging.receive_debug_notifications.title" = "接收除錯通知";
 "settings.debugging.reset_app.alert_title" = "刪除所有應用資料？";
 "settings.debugging.reset_app.client_event" = "從除錯設定中刪除所有應用程式資料";

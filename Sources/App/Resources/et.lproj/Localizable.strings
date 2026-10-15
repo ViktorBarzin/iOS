@@ -1142,6 +1142,10 @@
 "live_activity.title" = "Live Activities";
 "live_activity.token_unreachable.body" = "Home Assistantiga ei õnnestunud ühendust saada selle reaalajas tegevuse registreerimiseks, seega ei saa see uuendusi. Kontrolli kaasrakenduse seadetes serveri ühenduse turvataset ning kui kasutad sisemist URL-i, veendu, et asukoha luba on seatud väärtusele „Alati”.";
 "live_activity.token_unreachable.title" = "Live Activity ei uuendu";
+"local_push.state_notification.connected.body" = "Connected to %@";
+"local_push.state_notification.connected.title" = "Local push connected";
+"local_push.state_notification.disconnected.body" = "Lost %1$@: %2$@";
+"local_push.state_notification.disconnected.title" = "Local push disconnected";
 "location_change_notification.app_shortcut.body" = "Asukohta värskendati rakenduse otsetee kaudu";
 "location_change_notification.background_fetch.body" = "Praeguse asukoha edastamine käivitati taustal toomise kaudu";
 "location_change_notification.beacon_region_enter.body" = "%@ sisenes iBeaconi kaudu";
@@ -1918,6 +1922,7 @@ Importing replaces every category listed on this screen, including app settings.
 "settings.debugging.media_playback.restart_required.message" = "Selle muudatuse jõustumiseks sulge rakendus sundkorras ja ava see uuesti.";
 "settings.debugging.media_playback.restart_required.title" = "Vajalik on sundsulgemine";
 "settings.debugging.media_playback.title" = "WKWebView meedia taasesitus";
+"settings.debugging.notify_local_push_state_changes.title" = "Notify when local push connects or disconnects";
 "settings.debugging.receive_debug_notifications.title" = "Saa silumismärguandeid";
 "settings.debugging.reset_app.alert_title" = "Kas kustutada kõik rakenduse andmed?";
 "settings.debugging.reset_app.client_event" = "Kustutasin kõik rakenduse andmed silumisseadetest";

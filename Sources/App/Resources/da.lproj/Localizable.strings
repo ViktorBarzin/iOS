@@ -1142,6 +1142,10 @@ Denne server kræver et klientcertifikat (mTLS), men handlingen blev annulleret.
 "live_activity.title" = "Liveaktiviteter";
 "live_activity.token_unreachable.body" = "Home Assistant kunne ikke kontaktes for at registrere denne Liveaktivitet, så den modtager ikke opdateringer. Tjek serverens forbindelsessikkerhedsniveau i indstillingerne for appen, og hvis du er afhængig af din interne URL, skal du sørge for, at lokalitetstilladelsen er indstillet til \"Altid\".";
 "live_activity.token_unreachable.title" = "Liveaktivitet opdateres ikke";
+"local_push.state_notification.connected.body" = "Connected to %@";
+"local_push.state_notification.connected.title" = "Local push connected";
+"local_push.state_notification.disconnected.body" = "Lost %1$@: %2$@";
+"local_push.state_notification.disconnected.title" = "Local push disconnected";
 "location_change_notification.app_shortcut.body" = "Lokalitet opdateret via appgenvej";
 "location_change_notification.background_fetch.body" = "Nuværende lokalitetslevering udløst via baggrundshentning";
 "location_change_notification.beacon_region_enter.body" = "ankom til %@ via iBeacon";
@@ -1918,6 +1922,7 @@ Importen erstatter alle kategorier, der vises på denne skærm, herunder appinds
 "settings.debugging.media_playback.restart_required.message" = "Tvangsluk og genåbn appen for at denne ændring kan træde i kraft.";
 "settings.debugging.media_playback.restart_required.title" = "Tvangslukning påkrævet";
 "settings.debugging.media_playback.title" = "WKWebView-medieafspilning";
+"settings.debugging.notify_local_push_state_changes.title" = "Notify when local push connects or disconnects";
 "settings.debugging.receive_debug_notifications.title" = "Modtag fejlfindingsnotifikationer";
 "settings.debugging.reset_app.alert_title" = "Slet alle appdata?";
 "settings.debugging.reset_app.client_event" = "Slettede alle appdata fra fejlfindingsindstillingerne";

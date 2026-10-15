@@ -1142,6 +1142,10 @@ Deze server vereist een clientcertificaat (mTLS), maar de bewerking is geannulee
 "live_activity.title" = "Live activiteiten";
 "live_activity.token_unreachable.body" = "Home Assistant kon deze Live-activiteit niet registreren, waardoor er geen updates worden ontvangen. Controleer het beveiligingsniveau van de serververbinding in de instellingen van de bijbehorende app en zorg ervoor dat de locatietoestemming is ingesteld op 'Altijd' als je de interne URL gebruikt.";
 "live_activity.token_unreachable.title" = "Live-activiteit wordt niet bijgewerkt";
+"local_push.state_notification.connected.body" = "Connected to %@";
+"local_push.state_notification.connected.title" = "Local push connected";
+"local_push.state_notification.disconnected.body" = "Lost %1$@: %2$@";
+"local_push.state_notification.disconnected.title" = "Local push disconnected";
 "location_change_notification.app_shortcut.body" = "Locatie bijgewerkt via App-snelkoppeling";
 "location_change_notification.background_fetch.body" = "Aflevering van huidige locatie geactiveerd via fetch op de achtergrond";
 "location_change_notification.beacon_region_enter.body" = "%@ betreden via iBeacon";
@@ -1918,6 +1922,7 @@ Door te importeren worden alle categorieën die op dit scherm worden weergegeven
 "settings.debugging.media_playback.restart_required.message" = "Sluit de app geforceerd af en open deze opnieuw om deze wijziging door te voeren.";
 "settings.debugging.media_playback.restart_required.title" = "Geforceerd afsluiten vereist";
 "settings.debugging.media_playback.title" = "WKWebView Media Playback";
+"settings.debugging.notify_local_push_state_changes.title" = "Notify when local push connects or disconnects";
 "settings.debugging.receive_debug_notifications.title" = "Receive debug notifications";
 "settings.debugging.reset_app.alert_title" = "Alle app-gegevens verwijderen?";
 "settings.debugging.reset_app.client_event" = "Deleted all app data from debug settings";

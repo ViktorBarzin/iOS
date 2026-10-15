@@ -1142,6 +1142,10 @@
 "live_activity.title" = "Canlı Etkinlikler";
 "live_activity.token_unreachable.body" = "Home Assistant'a bu Canlı Etkinliği kaydetmek için ulaşılamadı, bu nedenle güncellemeler almayacak. Yardımcı uygulama ayarlarında sunucunun bağlantı güvenlik düzeyini kontrol edin ve dahili URL'nize güveniyorsanız konum izninin \"Her zaman\" olarak ayarlandığından emin olun.";
 "live_activity.token_unreachable.title" = "Canlı Etkinlik güncellenmeyecek";
+"local_push.state_notification.connected.body" = "Connected to %@";
+"local_push.state_notification.connected.title" = "Local push connected";
+"local_push.state_notification.disconnected.body" = "Lost %1$@: %2$@";
+"local_push.state_notification.disconnected.title" = "Local push disconnected";
 "location_change_notification.app_shortcut.body" = "Konum Uygulama Kısayolu ile güncellendi";
 "location_change_notification.background_fetch.body" = "Arka plan getirme yoluyla tetiklenen geçerli konum teslimi";
 "location_change_notification.beacon_region_enter.body" = "%@ iBeacon aracılığıyla girildi";
@@ -1918,6 +1922,7 @@ Ev Asistanı açık kaynaklıdır, gizliliği savunur ve evinizde yerel olarak �
 "settings.debugging.media_playback.restart_required.message" = "Bu değişikliğin geçerli olması için uygulamayı zorla kapatıp yeniden açın.";
 "settings.debugging.media_playback.restart_required.title" = "Zorla kapatma gerekiyor";
 "settings.debugging.media_playback.title" = "WKWebView Medya Oynatma";
+"settings.debugging.notify_local_push_state_changes.title" = "Notify when local push connects or disconnects";
 "settings.debugging.receive_debug_notifications.title" = "Hata ayıklama bildirimleri alın";
 "settings.debugging.reset_app.alert_title" = "Tüm uygulama veriler silinsin mi?";
 "settings.debugging.reset_app.client_event" = "Hata ayıklama ayarlarından tüm uygulama verileri silindi.";

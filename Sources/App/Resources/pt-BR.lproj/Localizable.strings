@@ -1142,6 +1142,10 @@ Este servidor requer um certificado de cliente (mTLS), mas a operação foi canc
 "live_activity.title" = "Atividades ao Vivo";
 "live_activity.token_unreachable.body" = "Não foi possível conectar ao Home Assistant para registrar esta Live Activity, então ela não receberá atualizações. Verifique o nível de segurança da conexão do servidor nas configurações do aplicativo complementar e, se você depende da sua URL interna, certifique-se de que a permissão de localização esteja definida como “Sempre”.";
 "live_activity.token_unreachable.title" = "A Atividade ao Vivo não será atualizada";
+"local_push.state_notification.connected.body" = "Connected to %@";
+"local_push.state_notification.connected.title" = "Local push connected";
+"local_push.state_notification.disconnected.body" = "Lost %1$@: %2$@";
+"local_push.state_notification.disconnected.title" = "Local push disconnected";
 "location_change_notification.app_shortcut.body" = "Localização atualizada via App Shortcut";
 "location_change_notification.background_fetch.body" = "Entrega da localização atual acionada por busca em segundo plano";
 "location_change_notification.beacon_region_enter.body" = "%@ entrou pelo iBeacon";
@@ -1918,6 +1922,7 @@ A importação substitui todas as categorias listadas nesta tela, incluindo as c
 "settings.debugging.media_playback.restart_required.message" = "Feche à força e reabra o aplicativo para que esta alteração tenha efeito.";
 "settings.debugging.media_playback.restart_required.title" = "É necessário fechar à força";
 "settings.debugging.media_playback.title" = "Reprodução de mídia do WKWebView";
+"settings.debugging.notify_local_push_state_changes.title" = "Notify when local push connects or disconnects";
 "settings.debugging.receive_debug_notifications.title" = "Receber notificações de depuração";
 "settings.debugging.reset_app.alert_title" = "Excluir todos os dados do aplicativo?";
 "settings.debugging.reset_app.client_event" = "Todos os dados do aplicativo foram excluídos das configurações de depuração";

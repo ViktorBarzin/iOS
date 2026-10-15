@@ -1140,6 +1140,10 @@
 "live_activity.title" = "Live-aktiviteter";
 "live_activity.token_unreachable.body" = "Det gick inte att ansluta till Home Assistant för att registrera denna Live-aktivitet, så den kommer inte att få uppdateringar. Kontrollera säkerhetsnivån för serverns anslutning i inställningarna i mobilappen, och om du använder en intern URL ska du se till att platsbehörigheten är inställd på ”Alltid”.";
 "live_activity.token_unreachable.title" = "Live-aktivitet uppdateras inte";
+"local_push.state_notification.connected.body" = "Connected to %@";
+"local_push.state_notification.connected.title" = "Local push connected";
+"local_push.state_notification.disconnected.body" = "Lost %1$@: %2$@";
+"local_push.state_notification.disconnected.title" = "Local push disconnected";
 "location_change_notification.app_shortcut.body" = "Plats uppdaterad via appgenväg";
 "location_change_notification.background_fetch.body" = "Aktuell plats skickades via bakgrundshämtning";
 "location_change_notification.beacon_region_enter.body" = "Ankomst till %@ via iBeacon";
@@ -1913,6 +1917,7 @@ Importen ersätter alla kategorier som visas på den här skärmen, inklusive ap
 "settings.debugging.media_playback.restart_required.message" = "Stäng appen ordentligt och öppna den igen för att ändringen ska träda i kraft.";
 "settings.debugging.media_playback.restart_required.title" = "Tvingad stängning krävs";
 "settings.debugging.media_playback.title" = "WKWebView – Uppspelning av media";
+"settings.debugging.notify_local_push_state_changes.title" = "Notify when local push connects or disconnects";
 "settings.debugging.receive_debug_notifications.title" = "Ta emot felsökningsmeddelanden";
 "settings.debugging.reset_app.alert_title" = "Vill du radera alla appdata?";
 "settings.debugging.reset_app.client_event" = "Raderade all appdata från felsökningsinställningarna";

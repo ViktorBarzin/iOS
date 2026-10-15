@@ -1142,6 +1142,10 @@ Dieser Server benötigt ein Clientzertifikat (mTLS), aber der Vorgang wurde abge
 "live_activity.title" = "Live-Aktivitäten";
 "live_activity.token_unreachable.body" = "Home Assistant konnte zur Registrierung dieser Live-Aktivität nicht erreicht werden, daher erhält sie keine Aktualisierungen. Überprüfe die Verbindungssicherheit des Servers in den Einstellungen der Companion-App, und wenn du eine interne URL verwendest, stellen sicher, dass die Standortberechtigung auf „Immer“ gesetzt ist.";
 "live_activity.token_unreachable.title" = "Live-Aktivität wird nicht aktualisiert";
+"local_push.state_notification.connected.body" = "Connected to %@";
+"local_push.state_notification.connected.title" = "Local push connected";
+"local_push.state_notification.disconnected.body" = "Lost %1$@: %2$@";
+"local_push.state_notification.disconnected.title" = "Local push disconnected";
 "location_change_notification.app_shortcut.body" = "Standort über App-Shortcut aktualisiert";
 "location_change_notification.background_fetch.body" = "Standortaktualisierung: Hintergrundaktualisierung";
 "location_change_notification.beacon_region_enter.body" = "%@ über iBeacon betreten";
@@ -1918,6 +1922,7 @@ Durch den Import werden alle auf diesem Bildschirm aufgeführten Kategorien, ein
 "settings.debugging.media_playback.restart_required.message" = "Schließe die App zwangsweise und öffne sie erneut, damit diese Änderung wirksam wird.";
 "settings.debugging.media_playback.restart_required.title" = "Erzwungenes Schließen erforderlich";
 "settings.debugging.media_playback.title" = "WKWebView-Medienwiedergabe";
+"settings.debugging.notify_local_push_state_changes.title" = "Notify when local push connects or disconnects";
 "settings.debugging.receive_debug_notifications.title" = "Debug-Benachrichtigungen erhalten";
 "settings.debugging.reset_app.alert_title" = "Alle App-Daten löschen?";
 "settings.debugging.reset_app.client_event" = "Alle App-Daten wurden aus den Debug-Einstellungen gelöscht";

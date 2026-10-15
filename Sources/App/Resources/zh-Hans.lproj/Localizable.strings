@@ -1142,6 +1142,10 @@
 "live_activity.title" = "实时活动";
 "live_activity.token_unreachable.body" = "无法连接到 Home Assistant 注册此实时活动，因此它将无法接收更新。请在配套应用的设置中检查服务器的连接安全级别；如果您使用的是内部网址，请确保位置权限设置为“始终”。";
 "live_activity.token_unreachable.title" = "“实时活动”无法更新";
+"local_push.state_notification.connected.body" = "Connected to %@";
+"local_push.state_notification.connected.title" = "Local push connected";
+"local_push.state_notification.disconnected.body" = "Lost %1$@: %2$@";
+"local_push.state_notification.disconnected.title" = "Local push disconnected";
 "location_change_notification.app_shortcut.body" = "通过应用捷径更新位置";
 "location_change_notification.background_fetch.body" = "通过后台获取当前位置信息";
 "location_change_notification.beacon_region_enter.body" = "%@ 由 iBeacon 识别进入";
@@ -1915,6 +1919,7 @@ Importing replaces every category listed on this screen, including app settings.
 "settings.debugging.media_playback.restart_required.message" = "Force close and reopen the app for this change to take effect.";
 "settings.debugging.media_playback.restart_required.title" = "Force close required";
 "settings.debugging.media_playback.title" = "WKWebView 媒体播放";
+"settings.debugging.notify_local_push_state_changes.title" = "Notify when local push connects or disconnects";
 "settings.debugging.receive_debug_notifications.title" = "接收调试通知";
 "settings.debugging.reset_app.alert_title" = "删除全部应用数据 ？";
 "settings.debugging.reset_app.client_event" = "Deleted all app data from debug settings";

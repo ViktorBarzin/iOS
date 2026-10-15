@@ -1142,6 +1142,10 @@ Tento server vyžaduje klientský certifikát (mTLS), ale operace byla zrušena.
 "live_activity.title" = "Živé aktivity";
 "live_activity.token_unreachable.body" = "Home Assistantovi se nepodařilo zaregistrovat tuto živou aktivitu, takže nebude přijímat aktualizace. Zkontrolujte úroveň zabezpečení připojení serveru v nastavení doprovodné aplikace a pokud se spoléháte na interní URL adresu, ujistěte se, že je povolení k poloze nastaveno na \"Vždy\".";
 "live_activity.token_unreachable.title" = "Živá aktivita se neaktualizuje";
+"local_push.state_notification.connected.body" = "Connected to %@";
+"local_push.state_notification.connected.title" = "Local push connected";
+"local_push.state_notification.disconnected.body" = "Lost %1$@: %2$@";
+"local_push.state_notification.disconnected.title" = "Local push disconnected";
 "location_change_notification.app_shortcut.body" = "Poloha aktualizována přes zástupce aplikace";
 "location_change_notification.background_fetch.body" = "Doručení aktuální polohy spuštěno prostřednictvím načtení na pozadí";
 "location_change_notification.beacon_region_enter.body" = "%@ vstoupil přes iBeacon";
@@ -1918,6 +1922,7 @@ Import nahradí všechny kategorie uvedené na této obrazovce, včetně nastave
 "settings.debugging.media_playback.restart_required.message" = "Aby se tato změna projevila, vynuťte zavření a opětovné otevření aplikace.";
 "settings.debugging.media_playback.restart_required.title" = "Je nutné vynutit ukončení aplikace";
 "settings.debugging.media_playback.title" = "Přehrávání médií WKWebView";
+"settings.debugging.notify_local_push_state_changes.title" = "Notify when local push connects or disconnects";
 "settings.debugging.receive_debug_notifications.title" = "Zobrazit oznámení o ladění";
 "settings.debugging.reset_app.alert_title" = "Smazat všechna data aplikace?";
 "settings.debugging.reset_app.client_event" = "Z nastavení ladění byla smazána všechna data aplikace";

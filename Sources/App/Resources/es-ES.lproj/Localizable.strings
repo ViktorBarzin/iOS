@@ -1142,6 +1142,10 @@ Este servidor requiere un certificado de cliente (mTLS), pero la operación se h
 "live_activity.title" = "Actividades en directo";
 "live_activity.token_unreachable.body" = "No se ha podido conectar con Home Assistant para registrar esta actividad en directo, por lo que no recibirá actualizaciones. Comprueba el nivel de seguridad de la conexión al servidor en los ajustes de la aplicación complementaria y, si utilizas una URL interna, asegúrate de que el permiso de ubicación esté configurado en \"Siempre\".";
 "live_activity.token_unreachable.title" = "Actividad en directo no se actualiza";
+"local_push.state_notification.connected.body" = "Connected to %@";
+"local_push.state_notification.connected.title" = "Local push connected";
+"local_push.state_notification.disconnected.body" = "Lost %1$@: %2$@";
+"local_push.state_notification.disconnected.title" = "Local push disconnected";
 "location_change_notification.app_shortcut.body" = "Ubicación actualizada a través del Atajo de la aplicación";
 "location_change_notification.background_fetch.body" = "Entrega de la ubicación actual activada mediante recuperación en segundo plano";
 "location_change_notification.beacon_region_enter.body" = "%@ acceso mediante iBeacon";
@@ -1918,6 +1922,7 @@ La importación sustituye todas las categorías que aparecen en esta pantalla, i
 "settings.debugging.media_playback.restart_required.message" = "Fuerza el cierre y vuelve a abrir la aplicación para que este cambio surta efecto.";
 "settings.debugging.media_playback.restart_required.title" = "Es necesario forzar el cierre";
 "settings.debugging.media_playback.title" = "Reproducción de medios en WKWebView";
+"settings.debugging.notify_local_push_state_changes.title" = "Notify when local push connects or disconnects";
 "settings.debugging.receive_debug_notifications.title" = "Recibir notificaciones de depuración";
 "settings.debugging.reset_app.alert_title" = "¿Eliminar todos los datos de la aplicación?";
 "settings.debugging.reset_app.client_event" = "Se han eliminado todos los datos de la aplicación desde los ajustes de depuración";
