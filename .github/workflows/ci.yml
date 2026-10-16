@@ -214,6 +214,16 @@ jobs:
       - name: Run tests
         run: bundle exec fastlane test
 
+      # Fork-only: hand back the snapshot references the run recorded or changed.
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9  # v7.0.2
+        name: "Upload recorded snapshots"
+        if: ${{ always() }}
+        with:
+          name: recorded-snapshots
+          path: |
+            Tests/**/__Snapshots__/**
+          if-no-files-found: ignore
+
       # Save the warmed DerivedData only from `main`, and only on a fresh key,
       # so PR runs never evict the shared base cache other PRs restore from.
       - uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9  # v6.1.0
